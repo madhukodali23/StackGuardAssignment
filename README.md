@@ -85,15 +85,21 @@ MONGO_URI=your-mongodb-atlas-uri
 JWT_SECRET=super_secret_change_me
 CLIENT_URL=https://stackguard-frontend.vercel.app
 
+
 ## Backend setup
+```
 cd stackguard-server
 npm install
 npm run dev
+```
+
 
 ## Frontend setup
+```
 cd stackguard-frontend
 npm install
 npm run dev
+```
 
 
 ## ✨Features
