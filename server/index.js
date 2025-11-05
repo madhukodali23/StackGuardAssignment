@@ -8,14 +8,17 @@ import configRouter from "./routes/config.js";
 dotenv.config();
 const app = express();
 
-app.use(cors({
-  origin: [
-    "http://localhost:5173", 
-    "https://stackguard-frontend.vercel.app"
-  ],
-  methods: ["GET", "POST", "PUT", "DELETE"],
-  credentials: true
-}));
+app.use(
+  cors({
+    origin: [
+      "http://localhost:5173",
+      "https://stack-guard-assignment-self.vercel.app",
+      "https://stack-guard-assignment-git-main-kodali-madhu-kanths-projects.vercel.app"
+    ],
+    methods: ["GET", "POST", "PUT", "DELETE"],
+    credentials: true,
+  })
+);
 
 app.use(express.json());
 
