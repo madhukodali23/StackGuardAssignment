@@ -44,7 +44,7 @@ Design closely follows the Figma provided in the task:
 
 ### Frontend (`client/stackguard-client/`)
 
-src/
+```src/
 ├── api.js
 ├── auth.js
 ├── App.jsx
@@ -56,6 +56,7 @@ src/
 ├── AuthPage.jsx
 ├── ConfigPage.jsx
 └── Dashboard.jsx
+```
 
 
 ### Backend (`server/`)
