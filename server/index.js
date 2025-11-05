@@ -8,7 +8,17 @@ import configRouter from "./routes/config.js";
 dotenv.config();
 const app = express();
 
-app.use(cors({ origin: process.env.CLIENT_URL, credentials: true }));
+import cors from "cors";
+
+app.use(cors({
+  origin: [
+    "http://localhost:5173", 
+    "https://stackguard-frontend.vercel.app"
+  ],
+  methods: ["GET", "POST", "PUT", "DELETE"],
+  credentials: true
+}));
+
 app.use(express.json());
 
 app.get("/", (req, res) => res.send("Stackguard API running"));
