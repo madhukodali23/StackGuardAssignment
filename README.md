@@ -60,6 +60,7 @@ Design closely follows the Figma provided in the task:
 
 
 ### Backend (`server/`)
+```
 server/
 ├── index.js
 ├── .env
@@ -71,6 +72,7 @@ server/
 ├── middleware/
 │ └── auth.js
 └── package.json
+```
 
 
 ---
