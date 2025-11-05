@@ -97,6 +97,7 @@ npm run dev
 
 
 ## ✨Features
+```
 ✅ User Authentication (Sign-in / Sign-up)
 🔒 JWT Protected API Routes
 🧠 Configurable Public Key (100–1000 characters)
@@ -104,3 +105,4 @@ npm run dev
 🧹 Clean Component Structure
 🪶 Pure CSS (no heavy UI libraries)
 🚀 Deployed Full-Stack (Vercel + Render)
+```
